@@ -45,6 +45,7 @@ if (missing.length > 0) {
 // ============================================================
 
 const adapter = new BotFrameworkAdapter({
+  channelAuthTenant: "901d036d-69a0-48e1-b908-8fdc38f0030e",
   appId: CONFIG.botAppId,
   appPassword: CONFIG.botAppPassword,
 });

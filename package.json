@@ -1,16 +1,14 @@
 {
   "name": "agent-doc-piia",
-  "version": "1.0.0",
-  "description": "Middleware Teams → AgentHub para agente DOC PIIA (Saludsa)",
+  "version": "3.0.0",
+  "description": "Middleware Teams → AgentHub para agente DOC PIIA",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "botbuilder": "^4.23.1",
-    "express": "^4.21.0",
-    "node-fetch": "^2.7.0"
+    "axios": "^1.7.0",
+    "express": "^4.21.0"
   },
   "engines": {
     "node": ">=18"
